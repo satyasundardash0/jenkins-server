@@ -4,6 +4,6 @@ resource "aws_instance" "name" {
   key_name = var.key_name 
   # user_data = file("script.sh") 
   tags = { 
-    Name = "Hosting-server"
+    Name = "Hosting-server1"
 }
 }
